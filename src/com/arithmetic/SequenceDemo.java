@@ -84,8 +84,7 @@ public class SequenceDemo {
 			}
 			v.set(j, t);
 		}
-		System.out.println("插入排序后:"+v.toString());
-				
+		System.out.println("插入排序后:"+v.toString());			
 	}
 	
 	/**
