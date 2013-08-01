@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class ThreadPoolTest {
 	public static void main(String[] args) {   
 	    BlockingQueue<Runnable> queue = new LinkedBlockingQueue<Runnable>();   
-	    ThreadPoolExecutor executor = new ThreadPoolExecutor(3, 6, 1, TimeUnit.DAYS, queue);   
+	    ThreadPoolExecutor executor = new ThreadPoolExecutor(4, 6, 1, TimeUnit.DAYS, queue);   
 	    for (int i = 0; i < 20; i++) {   
 	        executor.execute(new Runnable() {   
 	    
